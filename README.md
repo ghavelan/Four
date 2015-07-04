@@ -9,7 +9,7 @@ This game is available on the [Play Store](https://play.google.com/store/apps/de
 Changes and improvements are of course welcome. You can fork this repository and open a pull request. Please make your changes in a specific branch and request to pull into `master`.
 
 # License
-Four is under the [MIT License.](LICENSE.txt)
+Four is under the [MIT License](LICENSE.txt)
 
 
 
