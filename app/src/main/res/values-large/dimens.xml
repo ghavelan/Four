@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- TOAST SCREEN-->
+    <dimen name="toast_screen_font_title">15sp</dimen>
+    <dimen name="toast_screen_padding">5dp</dimen>
+
+    <!-- INSTRUCTIONS SCREEN-->
+    <dimen name="instructions_screen_font_title">20sp</dimen>
+    <dimen name="instructions_screen_font_text">15sp</dimen>
+    <dimen name="instructions_screen_margin_top">20dp</dimen>
+    <dimen name="instructions_screen_margin_left">5dp</dimen>
+    <dimen name="instructions_screen_square">30dp</dimen>
+    <item name="instructions_screen_total_hw" format="integer" type="dimen">10</item>
+    <item name="instructions_screen_space_hw" format="integer" type="dimen">2</item>
+    <item name="instructions_screen_scroll_hw" format="integer" type="dimen">6</item>
+
+    <!-- TITLE AND RESULTS SCREENS-->
+    <dimen name="title_screen_font_title">40sp</dimen>
+    <dimen name="title_screen_font_menu">30sp</dimen>
+    <dimen name="title_screen_padding">5dp</dimen>
+    <dimen name="title_screen_square_width">75dp</dimen>
+    <dimen name="title_screen_space_width">55dp</dimen>
+    <item name="title_screen_total_vw" format="integer" type="dimen">10</item>
+    <item name="title_screen_space_vw" format="integer" type="dimen">3</item>
+    <item name="title_screen_menu_vw" format="integer" type="dimen">1</item>
+    <item name="title_screen_inter" format="float" type="dimen">0.5</item>
+
+    <!-- DIALOG SCREEN-->
+    <dimen name="dialog_screen_title">25sp</dimen>
+    <dimen name="dialog_screen_font_size">20sp</dimen>
+    <dimen name="dialog_screen_margin_bottom">20dp</dimen>
+    <dimen name="dialog_screen_margin_right">5dp</dimen>
+    <item name="dialog_screen_horizontal_w" format="integer" type="dimen">5</item>
+    <item name="dialog_screen_button_w" format="integer" type="dimen">1</item>
+    <item name="dialog_screen_space_w" format="float" type="dimen">0.2</item>
+
+    <!-- GAME SCREEN-->
+    <!-- Line width -->
+    <dimen name="gv_line_width">5dp</dimen>
+    <!-- Buttons line width -->
+    <dimen name="gv_button_line_width">3dp</dimen>
+    <!-- Buttons radius -->
+    <dimen name="gv_buttons_radius">0dp</dimen>
+    <!-- Text size -->
+    <dimen name="gv_text_size">18sp</dimen>
+    <!-- Top margin -->
+    <dimen name="gv_top_margin">10dp</dimen>
+    <!-- Bottom margin -->
+    <dimen name="gv_button_margin">5dp</dimen>
+    <!-- Left and right margins -->
+    <dimen name="gv_lr_margin">20dp</dimen>
+    <!-- buttons top margin -->
+    <dimen name="gv_buttons_top_margin">10dp</dimen>
+    <!-- shadow -->
+    <dimen name="gv_shadow">6dp</dimen>
+    <!-- Buttons height -->
+    <dimen name="gv_buttons_height">85dp</dimen>
+
+</resources>

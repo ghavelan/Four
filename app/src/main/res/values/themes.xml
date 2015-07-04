@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Custom theme for background-->
+<resources>
+
+    <style name="GameTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@drawable/screen_background</item>
+    </style>
+
+    <style name="TitleScreenTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@color/menu_background</item>
+    </style>
+
+    <style name="ResultsScreenTheme" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@color/results_background</item>
+    </style>
+
+    <style name="InstructionsActivity" parent="@android:style/Theme.Light">
+        <item name="android:windowBackground">@color/instructions_background</item>
+    </style>
+
+
+</resources>

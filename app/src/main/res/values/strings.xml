@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Fast Fill</string>
+    <string name="start">Start</string>
+    <string name="instructions">How to play</string>
+    <string name="best_score">Best score</string>
+    <string name="content_description">Image</string>
+     <string name="instructions_text">
+         Your goal is to paint each rectangular cell of the grid with the following colors :
+         white, blue, yellow and red. \n\n
+         Be careful that two adjacent cells can not have the same color!\n\n
+         You have an initial time of 60 seconds to paint the entire grid.
+         When you have completed you\'ll receive a time bonus that will be added to the remaining time.\n\n
+         The faster you paint the grid and the less colors you use the higher will be the time bonus.\n\n
+         Your goal is to color as much grids as possible.\n\n
+         When time is up the game is over.\n\n
+         You have three attempts.
+    </string>
+    <string name="score">Score</string>
+    <string name="time">Time</string>
+    <string name="grid">Grids</string>
+    <string name="lives">Attempts</string>
+    <string name="pause_content_description">Play/pause</string>
+    <string name="game_over">Game Over</string>
+    <string name="game_mistake">You made a mistake!</string>
+    <string name="game_over_touch">Adjacent cells have the same color!</string>
+    <string name="game_over_time">Time is up!</string>
+    <string name="new_game">Start a new game ?</string>
+    <string name="time_bonus">Time bonus : %1$d s</string>
+    <string name="best_results">Best score : %1$d</string>
+    <string name="best_grids">Grids : %1$d</string>
+    <string name="best_date">Date : %1$s</string>
+    <string name="game_succeed">Good!</string>
+    <string name="game_continue">Continue?</string>
+    <string name="try_again">Try Again?</string>
+    <string name="ok">OK</string>
+    <string name="not_ok">NO</string>
+    <string name="image_saved">Image successfully saved!</string>
+    <string name="insert_sd">You need to insert a SD card!</string>
+    <string name="ic_launch">Icon</string>
+
+</resources>

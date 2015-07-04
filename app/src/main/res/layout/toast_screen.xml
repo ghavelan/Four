@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toast_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/menu_background"
+    android:orientation="horizontal"
+    android:padding="@dimen/toast_screen_padding">
+
+    <ImageView
+        android:id="@+id/toast_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/toast_screen_padding"
+        android:layout_marginRight="@dimen/toast_screen_padding"
+        android:contentDescription="@string/ic_launch"
+        android:src="@drawable/ic_launcher_four" />
+
+    <be.ghavelan.fastfill.CustomTextView
+        android:id="@+id/toast_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:text="@string/image_saved"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/toast_screen_font_title"
+        customfontdemo:fontName="OpenSans-Regular.ttf"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfontdemo="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="@dimen/instructions_screen_total_hw">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="@dimen/instructions_screen_space_hw">
+    </View>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="@dimen/instructions_screen_scroll_hw">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <be.ghavelan.fastfill.CustomTextView
+                android:id="@+id/instructions_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/instructions_screen_margin_top"
+                android:text="@string/instructions"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/instructions_screen_font_title"
+                customfontdemo:fontName="OpenSans-Bold.ttf" />
+
+            <be.ghavelan.fastfill.CustomTextView
+                android:id="@+id/instructions_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/instructions_screen_margin_top"
+                android:gravity="fill_horizontal"
+                android:text="@string/instructions_text"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/instructions_screen_font_text"
+                customfontdemo:fontName="OpenSans-Regular.ttf" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

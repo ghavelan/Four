@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Fast Fill</string>
+    <string name="start">Jouer</string>
+    <string name="instructions">Instructions</string>
+    <string name="best_score">Meilleur score</string>
+    <string name="content_description">Image</string>
+    <string name="instructions_text">
+        Votre objectif est de colorier chaque case de la grille à l\'aide des couleurs suivantes :
+        blanc, bleu, jaune et rouge.\n\n
+        Attention : deux cases qui se touchent ne peuvent pas avoir la même couleur!\n\n
+        Pour compléter la grille, vous bénéficiez d\'un temps initial de 60 secondes.
+        Lorsque vous aurez entièrement colorié la grille, vous aurez droit à un bonus temps qui viendra s\'ajouter au temps restant.\n\n
+        Plus vous êtes rapide et moins vous utilisez de couleurs, plus grand sera votre bonus.\n\n
+        Votre objectif est de colorier un maximum de grilles.\n\n
+        Lorsque le temps est écoulé, la partie est terminée.\n\n
+        Vous disposez de 3 essais.
+    </string>
+    <string name="score">Score</string>
+    <string name="time">Temps</string>
+    <string name="grid">Grilles</string>
+    <string name="lives">Essais</string>
+    <string name="pause_content_description">Play/pause</string>
+    <string name="game_over">Perdu!</string>
+    <string name="game_mistake">Vous vous êtes trompé!</string>
+    <string name="game_over_touch">Des cellules adjacentes ont la même couleur!</string>
+    <string name="game_over_time">Le temps est écoulé!</string>
+    <string name="new_game">Recommencer une nouvelle partie?</string>
+    <string name="time_bonus">Bonus temps : %1$d s</string>
+    <string name="best_results">Meilleur score : %1$d</string>
+    <string name="best_grids">Grilles : %1$d</string>
+    <string name="best_date">Date : %1$s</string>
+    <string name="game_succeed">Parfait!</string>
+    <string name="game_continue">On continue?</string>
+    <string name="try_again">Recommencer?</string>
+    <string name="ok">Oui</string>
+    <string name="not_ok">Non</string>
+    <string name="image_saved">Image enregistrée avec succès!</string>
+    <string name="insert_sd">Veuillez insérer une carte SD!</string>
+    <string name="ic_launch">Icone</string>
+
+</resources>

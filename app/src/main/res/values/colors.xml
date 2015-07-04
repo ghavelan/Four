@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Screen's background color-->
+    <color name="gv_background_begin">#ff676375</color>
+    <color name="gv_background_end">#ff0A0A0A</color>
+    <!-- Menu's background color-->
+    <color name="menu_background">#fffAf8Ef</color>
+    <!-- Result's background color-->
+    <color name="results_background">#fffAf8Ef</color>
+    <!-- Instructions screen's background color-->
+    <color name="instructions_background">#fffAf8Ef</color>
+    <!-- dialog's background color-->
+    <color name="dialog_background">#fffAf8Ef</color>
+    <!-- Mondrian start background color-->
+    <color name="mondrian_background">#ffbababa</color>
+    <!-- Line color-->
+    <color name="line_color">#ff0A0A0A</color>
+    <!-- Border of button (selected)-->
+    <color name="border_selected">#ffffffff</color>
+    <!-- Shadow of button (begin)-->
+    <color name="border_shadow_begin">#33000000</color>
+    <!-- Shadow of button (end)-->
+    <color name="border_shadow_end">#70676363</color>
+    <!-- Shadow of text-->
+    <color name="text_shadow">#ff191919</color>
+    <!-- Red (default)-->
+    <color name="red">#ffd62d20</color>
+    <!-- Red (selected)-->
+    <color name="redSelected">#ff370000</color>
+    <!-- Blue (default)-->
+    <color name="blue">#ff3c5a9a</color>
+    <!-- Blue (selected)-->
+    <color name="blueSelected">#ff010420</color>
+    <!-- Yellow (default)-->
+    <color name="yellow">#ffffde73</color>
+    <!-- Yellow (selected)-->
+    <color name="yellowSelected">#ffffa700</color>
+    <!-- white (default)-->
+    <color name="white">#ffeeeeee</color>
+    <!-- white (selected)-->
+    <color name="whiteSelected">#ffe5e5e5</color>
+    <!-- black (default)-->
+    <color name="black">#ff0A0A0A</color>
+    <!-- Text color-->
+    <color name="text_color">#ff776E65</color>
+
+</resources>
